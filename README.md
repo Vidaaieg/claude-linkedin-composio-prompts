@@ -11,9 +11,42 @@
 
 ## 🔌 الأول: اربط Claude بـ LinkedIn عن طريق Composio
 
-1. ضيف **Composio** في الـ Connectors بتوع Claude.
-2. قول لـ Claude: `connect my LinkedIn`، وهيديك لينك تعمل منه Login على LinkedIn مرة واحدة بس.
-3. خلاص 🎉 من هنا Claude يقدر يكتب وينشر ويعلّق باسمك، بعد ما يعرض عليك الأول.
+ادخل على [dashboard.composio.dev](https://dashboard.composio.dev) واعمل حساب (أو Login لو عندك حساب). وبعدين امشي ورا الخطوات دي:
+
+### 1️⃣ اربط Composio بـ Claude
+من الصفحة الرئيسية، في مربع **Claude**، دوس **Install** اللي جنب **Claude + Claude Cowork**، وكمّل الخطوات لحد ما Composio يظهر في الـ Connectors بتوع Claude.
+
+![دوس Install جنب Claude + Claude Cowork](images/step1-install-in-claude.png)
+
+> 💡 لو عايز تضيفه بإيدك: هتلاقي لينك الـ MCP في نفس الصفحة (`https://connect.composio.dev/mcp`)، ضيفه كـ Custom Connector في Claude.
+
+### 2️⃣ افتح Apps
+من القايمة اللي على الشمال، دوس **Apps**.
+
+![دوس Apps من القايمة اللي على الشمال](images/step2-open-apps.png)
+
+### 3️⃣ دوّر على LinkedIn
+اكتب `linkedin` في خانة **Search** اللي فوق على اليمين.
+
+![اكتب linkedin في خانة Search](images/step3-search.png)
+
+### 4️⃣ دوس + New على LinkedIn
+هيظهرلك كارتين، اختار **LinkedIn** (مش LinkedIn Ads) ودوس **+ New**.
+
+![دوس + New على كارت LinkedIn](images/step4-new.png)
+
+### 5️⃣ استنى نافذة LinkedIn
+الزرار هيقول **Connecting**، وهتفتحلك نافذة جديدة فيها صفحة تسجيل الدخول بتاعة LinkedIn.
+
+![الزرار بيقول Connecting وبتفتح نافذة LinkedIn](images/step5-login.png)
+
+### 6️⃣ اعمل Sign in ووافق
+اكتب الإيميل والباسورد (أو ادخل بـ Google أو Apple)، ودوس **Sign in**، وبعدين دوس **Allow** عشان توافق على الصلاحيات. بعدها LinkedIn هيظهر عندك في **Connected** على Composio.
+
+![اعمل Sign in على LinkedIn ووافق على الصلاحيات](images/step6-signin.png)
+
+### ✅ خلاص 🎉
+ارجع لـ Claude وجرّب تقوله: `what's my LinkedIn profile name?`. لو رد صح يبقى كله شغال، ومن هنا Claude يقدر يكتب وينشر ويعلّق باسمك، بعد ما يعرض عليك الأول.
 
 📚 لو محتاج تفاصيل أكتر عن الـ Connectors: [support.claude.com](https://support.claude.com) — وعن Composio: [composio.dev](https://composio.dev)
 
